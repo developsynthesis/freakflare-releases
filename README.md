@@ -35,4 +35,6 @@ See `releases.json` for the current schema. Key fields:
 
 ## Privacy
 
+FreakFlare does not collect, transmit, or store any user data. The app does not track usage, location, or device identifiers. The only network request the app makes is fetching this file (`releases.json`) to check for available updates. No information about the user or their device is sent in that request.
+
 This repo contains only version numbers and release notes text. No user data, no credentials, no device identifiers.
