@@ -1,6 +1,6 @@
 # FreakFlare Releases
 
-Public release metadata for the FreakFlare app. The FreakFlare app fetches `releases.json` from this repo on launch to check for available updates and display release notes to users.
+Public release metadata for the [FreakFlare](https://freakflare.com) app. The FreakFlare app fetches `releases.json` from this repo on launch to check for available updates and display release notes to users.
 
 ## How It Works
 
