@@ -1,0 +1,95 @@
+{
+  "app": {
+    "latestVersion": "0.10.1",
+    "storeUrl": {
+      "ios": "",
+      "android": ""
+    },
+    "releases": [
+      {
+        "version": "0.10.1",
+        "notes": [
+          "Preset Status Bar now updates in real-time when you change settings"
+        ]
+      },
+      {
+        "version": "0.10.0",
+        "notes": [
+          "Centralized device state management for better reliability",
+          "Brightness slider reads device brightness on connect"
+        ]
+      },
+      {
+        "version": "0.9.1",
+        "notes": [
+          "Global brightness slider on Presets and Advanced screens",
+          "Advanced Mode warning shows once per session",
+          "Presets tab remembers your last sub-tab selection"
+        ]
+      },
+      {
+        "version": "0.9.0",
+        "notes": [
+          "Smarter preset matching — compares values instead of raw strings",
+          "Default presets show '(default)' in Preset Status Bar"
+        ]
+      },
+      {
+        "version": "0.8.2",
+        "notes": [
+          "Default Presets tab with curated presets",
+          "My Presets tab with full preset management",
+          "Copy default presets to My Presets for customization"
+        ]
+      },
+      {
+        "version": "0.8.1",
+        "notes": [
+          "Battery indicator turns red at 10% (was 20%)",
+          "OTA update dialog shows firmware release notes",
+          "Device name limited to 15 characters",
+          "Website link in Help dialog",
+          "Duplicate preset name detection"
+        ]
+      },
+      {
+        "version": "0.8.0",
+        "notes": [
+          "Advanced tab with inline layer settings — no more separate screen",
+          "Layer sub-tabs (1, 2, 3) for quick switching",
+          "Tab renamed from 'Customize' to 'Advanced'",
+          "Advanced Mode warning on first entry"
+        ]
+      }
+    ]
+  },
+  "firmware": {
+    "latestVersion": "0.8.0",
+    "releases": [
+      {
+        "version": "0.8.0",
+        "notes": [
+          "Global brightness control via device.brightness command",
+          "Battery voltage threshold recalibrated (4020mV = 100%)",
+          "Smoother battery discharge curve (8-point table)",
+          "Device reports bootloader version via device.bootloader command"
+        ]
+      },
+      {
+        "version": "0.7.0",
+        "notes": [
+          "NVM write ordering fixed across all 60+ command handlers",
+          "ParameterStorage namespace extraction",
+          "Preset save-before-apply with retry logic"
+        ]
+      },
+      {
+        "version": "0.6.7",
+        "notes": [
+          "BLE shut down before deep sleep",
+          "NVM write functions return success/failure"
+        ]
+      }
+    ]
+  }
+}
