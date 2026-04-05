@@ -1,35 +1,88 @@
 {
   "app": {
-    "latestVersion": "0.12.0",
+    "latestVersion": "0.13.0",
     "storeUrl": {
       "ios": "",
       "android": ""
     },
     "releases": [
       {
+        "version": "0.12.3",
+        "notes": [
+          "Bundled firmware v0.8.1",
+          "Updated device recovery instructions with USB reboot tip"
+        ]
+      },
+      {
+        "version": "0.12.2",
+        "notes": [
+          "Correctly bundled firmware v0.8.0 for OTA updates"
+        ]
+      },
+      {
+        "version": "0.12.1",
+        "notes": [
+          "Redesigned Help menu with collapsible sections",
+          "Left-aligned menu items with consistent styling"
+        ]
+      },
+      {
         "version": "0.12.0",
         "notes": [
-          "This is a test update notification",
-          "If you can see this, the update system is working"
+          "Support / Feedback email feature with diagnostic data",
+          "Category-based diagnostics (Tech Support locks diagnostics ON)",
+          "File attachment support for screenshots and preset files"
+        ]
+      },
+      {
+        "version": "0.11.4",
+        "notes": [
+          "App update dialog shows 'Available in the App Store and Google Play'",
+          "Update button links to freakflare.com/pages/software"
+        ]
+      },
+      {
+        "version": "0.11.3",
+        "notes": [
+          "Firmware update details always accessible from device info",
+          "No snooze on firmware details — 'Not Right Now' simply closes"
+        ]
+      },
+      {
+        "version": "0.11.2",
+        "notes": [
+          "Firmware update shows release notes before OTA",
+          "Users can review what's new before proceeding with update"
         ]
       },
       {
         "version": "0.11.1",
         "notes": [
-          "Another test entry to verify version-ranged filtering"
+          "Update badge on help menu icon when app update available",
+          "Tappable 'Update Available' banner in help menu opens release notes"
+        ]
+      },
+      {
+        "version": "0.11.0",
+        "notes": [
+          "App update notification system",
+          "Checks for updates on launch from remote release notes",
+          "48-hour snooze for update reminders",
+          "Release notes show all changes since your version"
         ]
       },
       {
         "version": "0.10.1",
         "notes": [
-          "Preset Status Bar now updates in real-time when you change settings"
+          "Preset Status Bar updates in real-time when you change settings"
         ]
       },
       {
         "version": "0.10.0",
         "notes": [
-          "Centralized device state management for better reliability",
-          "Brightness slider reads device brightness on connect"
+          "DeviceStateService refactor for better reliability",
+          "Brightness slider reads device brightness on connect",
+          "Centralized device state management"
         ]
       },
       {
@@ -77,8 +130,14 @@
     ]
   },
   "firmware": {
-    "latestVersion": "0.8.0",
+    "latestVersion": "0.8.1",
     "releases": [
+      {
+        "version": "0.8.1",
+        "notes": [
+          "OTA reboot reliability testing"
+        ]
+      },
       {
         "version": "0.8.0",
         "notes": [
