@@ -1,9 +1,16 @@
 {
   "app": {
     "ios": {
-      "latestVersion": "0.13.4",
+      "latestVersion": "0.13.5",
       "storeUrl": "",
       "releases": [
+        {
+          "version": "0.13.5",
+          "notes": [
+            "Fixed brightness slider snapping back on iOS",
+            "Platform-specific update notifications (iOS/Android)"
+          ]
+        },
         {
           "version": "0.13.4",
           "notes": [
@@ -155,9 +162,16 @@
       ]
     },
     "android": {
-      "latestVersion": "0.13.4",
+      "latestVersion": "0.13.5",
       "storeUrl": "",
       "releases": [
+        {
+          "version": "0.13.5",
+          "notes": [
+            "Fixed brightness slider snapping back on iOS",
+            "Platform-specific update notifications (iOS/Android)"
+          ]
+        },
         {
           "version": "0.13.4",
           "notes": [
