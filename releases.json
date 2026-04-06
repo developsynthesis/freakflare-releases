@@ -1,9 +1,15 @@
 {
   "app": {
     "ios": {
-      "latestVersion": "0.13.5",
+      "latestVersion": "0.13.6",
       "storeUrl": "",
       "releases": [
+        {
+          "version": "0.13.6",
+          "notes": [
+            "App name on home screen changed to 'FreakFlare'"
+          ]
+        },
         {
           "version": "0.13.5",
           "notes": [
@@ -162,9 +168,15 @@
       ]
     },
     "android": {
-      "latestVersion": "0.13.5",
+      "latestVersion": "0.13.6",
       "storeUrl": "",
       "releases": [
+        {
+          "version": "0.13.6",
+          "notes": [
+            "App name on home screen changed to 'FreakFlare'"
+          ]
+        },
         {
           "version": "0.13.5",
           "notes": [
