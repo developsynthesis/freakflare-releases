@@ -1,14 +1,15 @@
 {
   "app": {
     "ios": {
-      "latestVersion": "0.14.0",
+      "latestVersion": "0.14.1",
       "storeUrl": "",
       "releases": [
         {
-          "version": "0.14.0",
+          "version": "0.14.1",
           "notes": [
+            "Privacy Policy accessible from Help menu",
             "Check for Updates now shows version comparison and server status",
-            "App store submission preparation"
+            "Help menu streamlined"
           ]
         },
         {
@@ -175,14 +176,15 @@
       ]
     },
     "android": {
-      "latestVersion": "0.14.0",
+      "latestVersion": "0.14.1",
       "storeUrl": "",
       "releases": [
         {
-          "version": "0.14.0",
+          "version": "0.14.1",
           "notes": [
+            "Privacy Policy accessible from Help menu",
             "Check for Updates now shows version comparison and server status",
-            "App store submission preparation"
+            "Help menu streamlined"
           ]
         },
         {
