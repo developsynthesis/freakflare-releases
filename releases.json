@@ -1,9 +1,16 @@
 {
   "app": {
     "ios": {
-      "latestVersion": "0.13.6",
+      "latestVersion": "0.14.0",
       "storeUrl": "",
       "releases": [
+        {
+          "version": "0.14.0",
+          "notes": [
+            "Check for Updates now shows version comparison and server status",
+            "App store submission preparation"
+          ]
+        },
         {
           "version": "0.13.6",
           "notes": [
@@ -168,9 +175,16 @@
       ]
     },
     "android": {
-      "latestVersion": "0.13.6",
+      "latestVersion": "0.14.0",
       "storeUrl": "",
       "releases": [
+        {
+          "version": "0.14.0",
+          "notes": [
+            "Check for Updates now shows version comparison and server status",
+            "App store submission preparation"
+          ]
+        },
         {
           "version": "0.13.6",
           "notes": [
