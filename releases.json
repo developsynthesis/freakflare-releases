@@ -1,9 +1,16 @@
 {
   "app": {
     "ios": {
-      "latestVersion": "0.14.1",
+      "latestVersion": "0.14.2",
       "storeUrl": "",
       "releases": [
+        {
+          "version": "0.14.2",
+          "notes": [
+            "Device rename updates immediately — no reboot needed",
+            "Firmware v0.9.4 with instant BLE name update"
+          ]
+        },
         {
           "version": "0.14.1",
           "notes": [
@@ -176,9 +183,16 @@
       ]
     },
     "android": {
-      "latestVersion": "0.14.1",
+      "latestVersion": "0.14.2",
       "storeUrl": "",
       "releases": [
+        {
+          "version": "0.14.2",
+          "notes": [
+            "Device rename updates immediately — no reboot needed",
+            "Firmware v0.9.4 with instant BLE name update"
+          ]
+        },
         {
           "version": "0.14.1",
           "notes": [
@@ -352,8 +366,15 @@
     }
   },
   "firmware": {
-    "latestVersion": "0.9.3",
+    "latestVersion": "0.9.4",
     "releases": [
+      {
+        "version": "0.9.4",
+        "notes": [
+          "Device rename takes effect immediately — no reboot needed",
+          "BLE advertising restarts with new name after rename"
+        ]
+      },
       {
         "version": "0.9.3",
         "notes": [
